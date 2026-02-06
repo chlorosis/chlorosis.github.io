@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import SplashLanding from './assets/splash/landing.png'
+import SplashRadio from './assets/splash/radiostations.png'
+
 import Footer from './components/Footer.vue';
 import Intro from './components/Intro.vue';
 import PortfolioItem from './components/Portfolio-Item.vue';
@@ -7,8 +10,8 @@ import Navbar from './components/Navbar.vue';
 import About from './components/About.vue';
 import Contact from './components/Contact.vue';
 const portfolio_items = [
-    { id: 1, splash: './assets/splash/radiostations.png', description: 'A browser for radiostations api by api.radio-browser.info.\n Made using Vue, IndexedDB.', link: 'https://chlorosis.github.io/radiostations' },
-    { id: 3, splash: './assets/splash/landing.png', description: 'The site you are on right now!\n Made using Vue', link: '#' },
+    { id: 1, splash: SplashRadio, description: 'A browser for radiostations api by api.radio-browser.info.\n Made using Vue, IndexedDB.', link: 'https://chlorosis.github.io/radiostations' },
+    { id: 3, splash: SplashLanding, description: 'The site you are on right now!\n Made using Vue', link: '#' },
 ];
 
 function getAssetUrl(path: string) {

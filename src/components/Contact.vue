@@ -3,7 +3,7 @@
     <section id="contact">
         <h1>Contact me:</h1>
 
-        <form target="_blank" action="https://formsubmit.co/arkhentark@gmail.com" method="POST">
+        <form target="_blank" action="https://formsubmit.co/4990cb8b7fb5cb6f951be2afa8d8858c" method="POST">
             <input type="text" name="name" class="form-control" placeholder="Name" required>
             <input type="email" name="email" class="form-control" placeholder="Email Address" required>
             <textarea placeholder="Your Message" class="form-control" name="message" cols="20" rows="10"
