@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #1b1b1b;
+  --font-color: #dadada;
+  --font-color-dark: #18212b;
+  /* background-color: var(--secondary-color); */
+  background-color: #0e0e0e;
+
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  color: var(--font-color)
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  padding: 3rem 6rem 3rem;
+  
+}
+
+
